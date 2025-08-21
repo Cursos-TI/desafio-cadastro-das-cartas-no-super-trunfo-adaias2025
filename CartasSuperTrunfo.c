@@ -3,41 +3,43 @@
 int main() {
 printf("CADASTRO DE CARTAS!\n");
 
-char estado, estado2;
-char codigo[20], codigo2[20];
-char cidade[20], cidade2[20];
-int populacao, populacao2;
-float area, area2;
-float pib, pib2;
-int turismo, turismo2;
+//VARIAVES DAS CARTAS 01 E 02
+char estado, estado2; //Declara as variaveis de caractere chamada "estado e estado2"
+char codigo[20], codigo2[20]; //Declara um array de 20 caracteres e inicia com "codigo e codigo2"
+char cidade[20], cidade2[20]; //Declara um array de 20 caracteres e inicia com "cidade e cidade2"
+int populacao, populacao2; //Declara a variavel chamada "populacao
+float area, area2; //Declara duas variaves de ponto flutuante chamada "area e area2"
+float pib, pib2; //Declara duas variaves de ponto flutuante chamada "pib e pib2"
+int turismo, turismo2; //Declara as variaveis inteira chamada "turismo e turismo2"
 
-printf ("CARTA 01: \n");
+printf ("CARTA 01: \n"); //Titulo da carta 01
 
-printf("digite o estado: \n");
-scanf(" %c", &estado);
+//ENTRADA DE DADOS DA CARTA 01
+printf("digite o estado: \n"); //exibir a informacao "digite o estado" como a funcao "printf"
+scanf(" %c", &estado); //scanf da variavel estado
 
-printf("digite o codigo: \n");
-scanf(" %s", codigo);
+printf("digite o codigo: \n"); //exibir a informacao "digite o codigo" como a funcao "printf"
+scanf(" %s", codigo); //scanf da variavel codigo
 
-printf("digite o nome da cidade: \n");
-scanf("%s", cidade);
+printf("digite o nome da cidade: \n"); //exibir a informacao "digite o nome da cidade" como a funcao "printf"
+scanf("%s", cidade); //scanf da variavel cidade
 
-printf("digite o valor populacional: \n");
-scanf("%d", &populacao);
+printf("digite o valor populacional: \n"); //exibir a informacao "digite o valor populacional" como a funcao "printf"
+scanf("%d", &populacao); //scanf da variavel populacao
 
-printf("diga a area em km²: \n");
-scanf("%f", &area);
+printf("digite a area em km²: \n"); //exibir a informacao "digite a area em km²" como a funcao "printf"
+scanf("%f", &area); //scanf da variavel area
 
-printf("digite o PIB: \n");
-scanf("%f", &pib);
+printf("digite o PIB: \n"); //exibir a informacao "digite o pib" como a funcao "printf"
+scanf("%f", &pib); //scanf da variavel pib
 
-printf("turismo: \n");
-scanf(" %d", &turismo);
+printf("turismo: \n");//exibir a informacao "turismo" como a funcao "printf"
+scanf(" %d", &turismo); //scanf da variavel turismo
 
-
-
+//Titulo da carta 02
 printf ("CARTA 02: \n");
 
+//ENTRADA DE DADOS DA CARTA 01
 printf("digite o estado: \n");
 scanf(" %c", &estado2);
 
@@ -50,7 +52,7 @@ scanf(" %s", cidade2);
 printf("digite o valor populacional: \n");
 scanf("%d", &populacao2);
 
-printf("diga a area em km²: \n");
+printf("digite a area em km²: \n");
 scanf("%f", &area2);
 
 printf("digite o PIB: \n");
@@ -59,6 +61,7 @@ scanf("%f", &pib2);
 printf("turismo: \n");
 scanf(" %d", &turismo2);
 
+//SAINDA DE DADOS DA CARTA 1
 printf ("CARTA 1: \n");
 printf("Estado: %c \n", estado);
 printf("Código: %s \n", codigo);
@@ -68,6 +71,7 @@ printf("Area em Km²: %.2f \n", area);
 printf("PIB: %.2f \n", pib);
 printf("Turismo: %d \n", turismo);
 
+//SAIDA DE DADOS DA CARTA 2
 printf ("CARTA 2: \n");
 printf("Estado: %c \n", estado2);
 printf("Código: %s \n", codigo2);
