@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-printf("CADASTRO DE CARTAS!\n");
+
+    printf("CADASTRO DE CARTAS!\n");
 
 //VARIAVES DAS CARTAS 01 E 02
 char estado, estado2; //Declara as variaveis de caractere chamada "estado e estado2"
@@ -11,8 +12,9 @@ int populacao, populacao2; //Declara a variavel chamada "populacao
 float area, area2; //Declara duas variaves de ponto flutuante chamada "area e area2"
 float pib, pib2; //Declara duas variaves de ponto flutuante chamada "pib e pib2"
 int turismo, turismo2; //Declara as variaveis inteira chamada "turismo e turismo2"
-float densidade,densidade2;
-float PIB,PIB2; // per capita
+float densidade, densidade2;
+float PIB, PIB2; // per capita
+
 printf ("CARTA 01: \n"); //Titulo da carta 01
 
 //ENTRADA DE DADOS DA CARTA 01
