@@ -11,7 +11,8 @@ int populacao, populacao2; //Declara a variavel chamada "populacao
 float area, area2; //Declara duas variaves de ponto flutuante chamada "area e area2"
 float pib, pib2; //Declara duas variaves de ponto flutuante chamada "pib e pib2"
 int turismo, turismo2; //Declara as variaveis inteira chamada "turismo e turismo2"
-
+float densidade,densidade2;
+float PIB,PIB2; // per capita
 printf ("CARTA 01: \n"); //Titulo da carta 01
 
 //ENTRADA DE DADOS DA CARTA 01
@@ -35,6 +36,8 @@ scanf("%f", &pib); //scanf da variavel pib
 
 printf("turismo: \n");//exibir a informacao "turismo" como a funcao "printf"
 scanf(" %d", &turismo); //scanf da variavel turismo
+densidade2 = (float)populacao2 / area2;
+PIB2 = (pib2 * 1000000000.0) / populacao2; // corrigido
 
 //Titulo da carta 02
 printf ("CARTA 02: \n");
@@ -60,6 +63,10 @@ scanf("%f", &pib2);
 
 printf("turismo: \n");
 scanf(" %d", &turismo2);
+densidade2 = (float)populacao2 / area2;
+PIB2 = (pib2 * 1000000000.0) / populacao2; // corrigido
+
+printf ("\n===== RESULTADOS =====\n");
 
 //SAINDA DE DADOS DA CARTA 1
 printf ("CARTA 1: \n");
@@ -70,6 +77,8 @@ printf("População: %d \n", populacao);
 printf("Area em Km²: %.2f \n", area);
 printf("PIB: %.2f \n", pib);
 printf("Turismo: %d \n", turismo);
+printf("Densidade populacional: %.2f hab/km²\n", densidade);
+printf("PIB per Capita: %.2f reais\n", PIB);
 
 //SAIDA DE DADOS DA CARTA 2
 printf ("CARTA 2: \n");
@@ -80,6 +89,8 @@ printf("População: %d \n", populacao2);
 printf("Area em Km²: %.2f \n", area2);
 printf("PIB: %.2f \n", pib2);
 printf("Turismo: %d \n", turismo2);
+printf("Densidade populacional: %.2f hab/km²\n", densidade2);
+printf("PIB per Capita: %.2f reais\n", PIB2);
 
 return 0;
 }
