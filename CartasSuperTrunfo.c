@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main (){
-
+//MUDANÇA EM TODO CODIGO
     char estado, estado2;
     char codigo[20], codigo2[20];
     char cidade[50], cidade2[50];
@@ -36,7 +36,7 @@ int main (){
     scanf(" %d", &turismo);
 
     densidade = (float)populacao / area;
-    PIB = (pib * 1000000000.0) / populacao; // corrigido
+    PIB = (pib * 1000000000.0) / populacao; // corrigido, DIVISOR
 
     printf ("\nCARTA 02: \n");
 
